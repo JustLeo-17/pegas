@@ -1,0 +1,123 @@
+/* font-family: 'Jost', sans-serif;
+font-family: 'Lora', serif;*/  /* delete later */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+/*****  Container ******/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+/*****  Header  ******/
+
+
+.header {
+    background: cadetblue;
+}
+
+img.logo {
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid blueviolet;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav {
+       justify-content: space-between;
+
+}
+
+.name {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.menu {
+   
+}
+
+.menu_item {
+  
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 25px;
+    transition: all .5 ease;
+    font-weight: 700;
+}
+.menu_item:last-child {
+    margin-right: 0;
+}
+
+.menu_item:hover {
+    color: rgb(145, 75, 89);
+    text-shadow: 2px 2px 1px rgb(5, 4, 4);
+}
+
+/*** main section ***/
+.main { 
+    display: flex;
+    flex-direction: column;
+    background: rgb(171, 213, 226);
+    height: 550px;
+    text-align: center;
+   
+}
+
+.main__inner {
+    width: 100%;
+    max-width: 1000px;
+    margin: 100px;
+}
+.main_title {
+    font-size: 65px;
+    
+    margin: 0;
+    text-transform: uppercase;
+    color: darkgrey;
+    margin-bottom: 100px;
+
+
+}
+.btn {
+  
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    
+    background: orangered;
+    border-radius: 15px;
+    vertical-align: top;
+    padding: 10px 30px;
+    transition: all .8 ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 4px orangered;
+    color: #fff;
+    background: rgb(172, 49, 4);
+}
